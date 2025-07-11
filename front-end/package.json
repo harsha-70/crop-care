@@ -4,16 +4,16 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-  "dev": "vite",
-  "build": "vite build",
-  "lint": "eslint .",
-  "preview": "vite preview",
-  "start": "concurrently \"npm run dev\" \"python ../backend/app.py\"",
-  "flask": "python ../backend/app.py"
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview",
+    "start": "concurrently \"npm run dev\" \"python ../backend/app.py\"",
+    "flask": "python ../backend/app.py"
   },
-
   "dependencies": {
     "@tailwindcss/vite": "^4.1.6",
+    "framer-motion": "^12.10.5",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
     "tailwindcss": "^4.1.6"

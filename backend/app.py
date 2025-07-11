@@ -15,7 +15,7 @@ base_path = os.path.dirname(os.path.abspath(__file__))
 # Load your trained model
 model = tf.keras.models.load_model(os.path.join(base_path, 'cropcare_final.h5'))
 
-# Load class labels (assumed to be stored in a pickle file)
+# Load class labels 
 with open(os.path.join(base_path, 'class_labels.pkl'), 'rb') as f:
     class_names = pkl.load(f)
 
